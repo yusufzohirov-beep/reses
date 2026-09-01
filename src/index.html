@@ -1,31 +1,235 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./output.css">
 </head>
+
 <body>
-    <header class="bg-[#EDF4F7] text-[#22253B] flex justify-between items-center px-20 py-5">
-        <div class="flex items-center gap-10 justify-between w-[100%] bg-white py-[17px] px-[20px] rounded-full">
-            <nav class="flex items-center gap-10">
-                <img src="./img/image.png" alt="" class="w-20 h-8">
-                <h1>Чему вы научитесь</h1>
-                <p>Процесс обучения</p>
-                <p>Стоимость</p>
-                <p>Контакты</p>
+    <header class="bg-[#EDF4F7] text-[#22253B] px-2 md:px-10 lg:px-20 py-3 lg:py-5">
+
+        <div class="flex items-center justify-between w-full bg-white py-2 px-5 lg:py-[17px] lg:px-[20px] rounded-full">
+
+
+            <img src="./img/image.png" alt="" class="w-20 h-8">
+
+
+
+            <nav class="hidden lg:flex items-center gap-10">
+
+                <h1>
+                    Чему вы научитесь
+                </h1>
+
+                <p>
+                    Процесс обучения
+                </p>
+
+                <p>
+                    Стоимость
+                </p>
+
+                <p>
+                    Контакты
+                </p>
+
             </nav>
-            
+
+
+            <!-- LOGIN -->
             <div class="flex items-center gap-5">
-                <h1>Регистрация</h1>
-                <button class="flex items-center gap-2 bg-[#38BFF2] text-white py-2 px-4 rounded-full">
-                    <img src="./img/image copy.png" alt=""> Войти
+
+                <h1 class="hidden lg:block">
+                    Регистрация
+                </h1>
+
+                <button class="flex items-center gap-2 bg-[#38BFF2] text-white py-2 px-5 rounded-full">
+
+                    <img src="./img/image copy.png" alt="" class="w-5 h-5">
+
+                    Войти
+
                 </button>
+
             </div>
+
+
+            <!-- BURGER MENU -->
+            <div class="lg:hidden">
+
+                <div class="flex flex-col gap-1">
+
+                    <span class="w-6 h-[3px] bg-[#F15525]"></span>
+
+                    <span class="w-6 h-[3px] bg-[#F15525]"></span>
+
+                    <span class="w-6 h-[3px] bg-[#F15525]"></span>
+
+                </div>
+
+            </div>
+
         </div>
+
     </header>
 
-    
+
+    <main>
+        <section
+            class="flex flex-col lg:flex-row justify-between items-center px-5 md:px-10 lg:px-20 py-10 md:py-16 lg:py-20 bg-[#EAF2F6]">
+
+
+
+
+            <div class="flex flex-col gap-5 w-full lg:w-[600px]">
+
+                <h1 class="text-[#22253B] text-[30px] md:text-[38px] lg:text-[45px] font-medium leading-tight">
+
+                    Школа
+
+                    <b class="text-[#F15525]">
+                        {
+                    </b>
+
+                    программирования
+
+                    <b class="text-[#F15525]">
+                        }
+                    </b>
+
+                    для тех, кому нужны реальные навыки, а не просто сертификат
+
+                </h1>
+
+
+                <p class="text-[#22253B] text-[16px] md:text-[18px]">
+
+                    Пройдите тестирование, чтобы получить доступ
+                    к бесплатным вводным урокам
+
+                </p>
+
+
+                <div>
+
+                    <button class="flex items-center gap-2 bg-[#F15525] text-white py-4 px-6 rounded-full">
+
+                        Пройти тестирование
+
+                        <img src="./img/image copy 2.png" alt="" class="w-4 h-4">
+
+                    </button>
+
+                </div>
+
+            </div>
+
+
+            <!-- RIGHT CONTENT -->
+
+            <div class="mt-10 lg:mt-0">
+
+                <img src="./img/image copy 3.png" alt=""
+                    class="w-[280px] h-[280px] md:w-[400px] md:h-[400px] lg:w-[500px] lg:h-[500px]">
+
+
+                <div class="bg-[#EDF4F7]
+                        w-[150px] h-[90px]
+                        md:w-[180px] md:h-[110px]
+                        lg:w-[210px] lg:h-[130px]
+                        relative
+                        right-[40px]
+                        md:right-[150px]
+                        lg:right-[250px]
+                        top-[30px]
+                        md:top-[70px]
+                        lg:top-[120px]
+                        flex items-center justify-center
+                        rounded-full">
+
+                    <img src="./img/image copy 4.png" alt="" class="w-12 md:w-16 lg:w-auto">
+
+                </div>
+
+            </div>
+
+        </section>
+
+       <section class="px-5 md:px-10 lg:px-20 py-10">
+
+    <h1 class="text-[#22253B] text-[30px] md:text-[40px] lg:text-[45px] text-center font-medium">
+        Какие технологии вы изучите:
+    </h1>
+
+    <div class="bg-[#EAF2F6] rounded-[40px] p-6 md:p-8 lg:p-10 mt-8">
+
+        <div class="flex flex-col lg:flex-row items-center justify-between gap-10">
+
+          
+
+            <div class="w-full lg:w-[45%] flex justify-center">
+
+                <img
+                    src="./img/image copy 6.png"
+                    alt=""
+                    class="w-[280px] md:w-[400px] lg:w-[500px]"
+                >
+
+            </div>
+
+
+
+            <div class="w-full lg:w-[45%]">
+
+                <div class="flex flex-wrap gap-2 md:gap-3">
+
+                    <div class="bg-[#5595F5] text-white text-[14px] md:text-[18px] lg:text-[20px] text-center py-3 px-5 rounded-full">
+                        Язык программирования Python
+                    </div>
+
+                    <div class="bg-[#FFB454] text-white text-[14px] md:text-[18px] lg:text-[20px] text-center py-3 px-6 rounded-full">
+                        Сети
+                    </div>
+
+                    <div class="bg-[#FF6B50] text-white text-[14px] md:text-[18px] lg:text-[20px] text-center py-3 px-6 rounded-full">
+                        Базы данных
+                    </div>
+
+                    <div class="bg-[#48CB72] text-white text-[14px] md:text-[18px] lg:text-[20px] text-center py-3 px-6 rounded-full">
+                        Фреймворки Flask и Django
+                    </div>
+
+                    <div class="bg-[#50B5F0] text-white text-[14px] md:text-[18px] lg:text-[20px] text-center py-3 px-6 rounded-full">
+                        Отладка и тестирование
+                    </div>
+
+                    <div class="bg-[#4D7CBF] text-white text-[14px] md:text-[18px] lg:text-[20px] text-center py-3 px-6 rounded-full">
+                        Docker
+                    </div>
+
+                    <div class="bg-[#A88BF5] text-white text-[14px] md:text-[18px] lg:text-[20px] text-center py-3 px-6 rounded-full">
+                        Git
+                    </div>
+
+                </div>
+
+
+                <p class="text-[#22253B] text-[16px] md:text-[18px] mt-6">
+                    Это необходимый минимум для современного backend-разработчика
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+    </main>
 </body>
+
 </html>
